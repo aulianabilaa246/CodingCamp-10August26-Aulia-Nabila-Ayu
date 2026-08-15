@@ -1,0 +1,1214 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold project files and HTML structure": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999243
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756013526
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756093817
+      }
+    ],
+    "2.1 Define CSS custom properties (design tokens) for both `light` (`:root`) and `dark` (`[data-theme=\"dark\"]`) themes in `css/style.css`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999397
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756103770
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756762095
+      }
+    ],
+    "2.2 Implement the `.dashboard` CSS grid with `grid-template-areas`, `grid-template-rows`, `grid-template-columns`, and `height: 100vh`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999499
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756108395
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756769416
+      }
+    ],
+    "2.3 Write base styles for typography, buttons, inputs, and widget cards": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999583
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756113069
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756774534
+      }
+    ],
+    "3.1 Write `Storage.load(key, defaultValue)` wrapped in `try/catch`; return `defaultValue` on missing key or JSON parse error; emit `console.warn` on parse failure": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999645
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756117383
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756781023
+      }
+    ],
+    "3.2 Write `Storage.save(key, value)` wrapped in `try/catch`; serialise with `JSON.stringify`; emit `console.warn` and return silently on write failure": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999693
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756121514
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756787705
+      }
+    ],
+    "3.3 Write `Storage.remove(key)` wrapped in `try/catch`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999739
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756127474
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756792440
+      }
+    ],
+    "4.1 Write `Theme.init()`: read `tld_theme` via `Storage.load` (default `\"light\"`), set `document.documentElement.dataset.theme`, update the toggle button's `aria-label` to reflect the *next* theme": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999782
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756797734
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756964554
+      }
+    ],
+    "4.2 Write `Theme.toggle()`: flip current theme between `\"light\"` and `\"dark\"`, update `document.documentElement.dataset.theme`, persist via `Storage.save('tld_theme', ...)`, update `aria-label`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999833
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756802451
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756971387
+      }
+    ],
+    "4.3 Write `Theme.getCurrent()`: return `document.documentElement.dataset.theme`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999880
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756806809
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756976716
+      }
+    ],
+    "5.1 Write `formatTime(date)` → `\"HH:MM\"` (zero-padded hours 00–23 and minutes 00–59)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999933
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756811696
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756982016
+      }
+    ],
+    "5.2 Write `formatDate(date)` → human-readable string (e.g., `\"Monday, 14 July 2025\"`) using `Intl.DateTimeFormat` or manual day/month name arrays": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786755999982
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756816429
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756987323
+      }
+    ],
+    "5.3 Write `formatDuration(totalSeconds)` → `\"MM:SS\"` where minutes = `Math.floor(s/60)` and seconds = `s % 60`, both zero-padded": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000056
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756994432
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757300962
+      }
+    ],
+    "5.4 Write `getGreetingPhrase(hours)`: pure function mapping integer 0–23 to one of `\"Good Morning\"` (5–11), `\"Good Afternoon\"` (12–17), `\"Good Evening\"` (18–21), `\"Good Night\"` (22–4)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000096
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756999085
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757306271
+      }
+    ],
+    "5.5 Write `isBlank(s)`: returns `true` iff `s.trim() === ''`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000143
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757003782
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757311109
+      }
+    ],
+    "5.6 Write `isValidUrl(s)`: returns `true` iff `s` starts with `\"http://\"` or `\"https://\"` and `typeof s === 'string'`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000190
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757009787
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757316991
+      }
+    ],
+    "5.7 Write `isValidDuration(n)`: returns `true` iff `Number.isInteger(n) && n >= 25 && n <= 60`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000233
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757014455
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757321970
+      }
+    ],
+    "5.8 Write `generateId()`: return `crypto.randomUUID()` with fallback to `Date.now().toString()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000279
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757019089
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757326794
+      }
+    ],
+    "6. Checkpoint — pure helpers and Storage complete": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000332
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757333298
+      }
+    ],
+    "7.1 Write the Greeting HTML markup inside `#widget-greeting`:": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000379
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757338405
+      },
+      {
+        "executionId": "32694a29-1036-4504-aade-433073cbe712",
+        "chatSessionId": "sess_20da8c1e-fde2-4bf3-9390-7786b53f472f",
+        "timestamp": 1786759627093
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760910486
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760927236
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761395824
+      }
+    ],
+    "7.2 Write `Greeting.render()`: project `state.greeting` and current `Date` → DOM; call `formatTime`, `formatDate`, `getGreetingPhrase`; if `userName` non-empty append `, {name}!` to phrase": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000426
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757343564
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760910648
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760931465
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761401405
+      }
+    ],
+    "7.3 Write `Greeting.saveUserName(s)`: validate with `isBlank`; if blank call `Storage.remove('tld_userName')`, clear `state.greeting.userName`; otherwise trim, store in state, persist via `Storage.save`; re-render": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000474
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757348223
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760910777
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760936147
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761407510
+      }
+    ],
+    "7.4 Write `Greeting.init()`: load `tld_userName` via `Storage.load(key, '')`, seed `state.greeting`, call `Greeting.render()`; schedule clock ticks aligned to the next full minute using the `setTimeout` + `setInterval` pattern from the design": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000528
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757352911
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760910834
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760940369
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761413393
+      }
+    ],
+    "7.5 Wire `#greeting-name-save` click → `Greeting.saveUserName(inputValue)` and `#greeting-name-edit` click → show/hide name input field; validate via `isBlank` and surface errors in `#greeting-name-error`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000578
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757358143
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760910895
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760945101
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761420868
+      }
+    ],
+    "8.1 Write the Timer HTML markup inside `#widget-timer`:": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000625
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757364804
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760910965
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761426238
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761858063
+      }
+    ],
+    "8.2 Write `Timer.render()`: project `state.timer` → DOM; call `formatDuration(Math.ceil(state.timer.remainingMs / 1000))`; apply enabled/disabled map from the design (IDLE: start✓ stop✗ reset✓; RUNNING: start✗ stop✓ reset✓; PAUSED: start✓ stop✗ reset✓)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000678
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757370033
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911014
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761433852
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761864596
+      }
+    ],
+    "8.3 Write `Timer.tick()`: no-op if `status !== 'RUNNING'`; compute `elapsed = Date.now() - state.timer.startTimestamp`, `remaining = state.timer.remainingAtStart - elapsed`; clamp to 0; if `remaining <= 0` transition to `IDLE/EXPIRED` and clear interval; else update `state.timer.remainingMs` and call `Timer.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000725
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757375861
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911087
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761439552
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761870193
+      }
+    ],
+    "8.4 Write `Timer.start()`: if `IDLE` or `PAUSED` → set `status = 'RUNNING'`, record `startTimestamp = Date.now()`, record `remainingAtStart = state.timer.remainingMs`, start `setInterval(Timer.tick, 1000)` and store `intervalId`; call `Timer.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000777
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757381486
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911148
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761444250
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761875680
+      }
+    ],
+    "8.5 Write `Timer.stop()`: if `RUNNING` → clear interval, set `status = 'PAUSED'`, capture `remainingMs` from current tick computation; call `Timer.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000826
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757386046
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911197
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761448643
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761880592
+      }
+    ],
+    "8.6 Write `Timer.reset()`: clear interval, set `status = 'IDLE'`, set `remainingMs = state.timer.savedDuration * 60 * 1000`; call `Timer.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000879
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757390749
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911252
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761885913
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761975181
+      }
+    ],
+    "8.7 Write `Timer.saveDuration(n)`: validate with `isValidDuration`; on failure inject error into `#timer-duration-error` and focus input; on success persist via `Storage.save('tld_timerDuration', n)`, update `state.timer.savedDuration`; if `status === 'IDLE'` call `Timer.reset()` to update display; if `RUNNING` or `PAUSED` save to localStorage only — apply on next reset": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000928
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757396000
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911318
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761890597
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761980973
+      }
+    ],
+    "8.8 Write `Timer.init()`: load `tld_timerDuration` via `Storage.load` (default 25), clamp to 25 if corrupt, seed `state.timer`, call `Timer.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756000977
+      },
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757400767
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911381
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761896830
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761986315
+      }
+    ],
+    "9. Checkpoint — Greeting and Timer complete": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001066
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911434
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761992988
+      }
+    ],
+    "10.1 Write `addTask(tasks, description)`: return new array with appended `Task` object (`id` from `generateId()`, `description: description.trim()`, `completed: false`, `insertionIndex: maxExistingIndex + 1`, `createdAt: Date.now()`)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001110
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911494
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761997763
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763029554
+      }
+    ],
+    "10.2 Write `editTask(task, newDesc)`: return new task object with only `description` updated to `newDesc.trim()`; all other fields (`id`, `completed`, `insertionIndex`, `createdAt`) unchanged": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001160
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911547
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786762004405
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763034436
+      }
+    ],
+    "10.3 Write `toggleComplete(task)`: return new task object with `completed: !task.completed`; all other fields unchanged": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001214
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911600
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786762009043
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763039780
+      }
+    ],
+    "10.4 Write `deleteTask(tasks, id)`: return new array with the task matching `id` removed; all others unchanged": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001282
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911654
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786762013652
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763045238
+      }
+    ],
+    "10.5 Write `sortTasks(order, tasks)`: return a new shallow-copy array sorted by the given `SortOrder`; never mutate input; implement all six comparators: `date-asc`, `date-desc`, `alpha-az`, `alpha-za`, `incomplete-first`, `complete-first`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001329
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911713
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786762018837
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763051368
+      }
+    ],
+    "10.6 Write `serializeTasks(tasks)` / `deserializeTasks(json)`: JSON stringify/parse with full field preservation; `deserializeTasks` must return `[]` on invalid input": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001376
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911766
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763058278
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763743087
+      }
+    ],
+    "11.1 Write the Task List HTML markup inside `#widget-tasks`:": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001426
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911831
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763750423
+      }
+    ],
+    "11.2 Write `Tasks.render()`: clear `#task-list`; call `sortTasks(state.sortOrder, state.tasks)`; build DOM nodes for each task without `innerHTML` (use `createElement`, `textContent`, `setAttribute`); apply `completed` class for visual distinction; if `state.tasks` is empty show a placeholder message": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001478
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911880
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763755576
+      }
+    ],
+    "11.3 Write `Tasks.add(description)`: validate with `isBlank`; on failure focus `#task-input` and surface error in `#task-input-error`; on success call `addTask()`, update `state.tasks`, persist via `Storage.save('tld_tasks', serializeTasks(...))`, clear input, call `Tasks.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001535
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911934
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763761127
+      }
+    ],
+    "11.4 Write `Tasks.edit(id, description)`: validate with `isBlank`; on failure keep edit mode and focus inline input; on success call `editTask()`, update `state.tasks`, persist, call `Tasks.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001581
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760911988
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763768008
+      }
+    ],
+    "11.5 Write `Tasks.activateEditMode(id)`: for each task set an `editMode` flag — only the target task gets `true`, all others get `false`; re-render so only one task is in edit mode at a time; pre-populate inline input with current description": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001677
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912047
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763774311
+      }
+    ],
+    "11.6 Write `Tasks.cancelEdit()`: clear all `editMode` flags; call `Tasks.render()` to restore display mode with original description": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001741
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912100
+      }
+    ],
+    "11.7 Write `Tasks.toggleComplete(id)`: call `toggleComplete(task)`, update `state.tasks`, persist, call `Tasks.render()`; re-render also applies active sort so completion-based sort views update in real time": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001865
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912162
+      }
+    ],
+    "11.8 Write `Tasks.delete(id)`: call `deleteTask()`, update `state.tasks`, persist, call `Tasks.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001924
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912216
+      }
+    ],
+    "11.9 Write `Tasks.setSortOrder(order)`: update `state.sortOrder`, persist via `Storage.save('tld_sortOrder', order)`, call `Tasks.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756001969
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912269
+      }
+    ],
+    "11.10 Write `Tasks.init()`: load tasks via `Storage.load('tld_tasks', '[]')` → `deserializeTasks`; load sort order via `Storage.load('tld_sortOrder', 'date-asc')`; seed `state.tasks` and `state.sortOrder`; call `Tasks.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002015
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912328
+      }
+    ],
+    "12. Checkpoint — Tasks module complete": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002062
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912381
+      }
+    ],
+    "13.1 Write `addLink(links, label, url)`: return new array with appended `Link` object (`id` from `generateId()`, `label: label.trim()`, `url`)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002114
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912438
+      }
+    ],
+    "13.2 Write `deleteLink(links, id)`: return new array with the link matching `id` removed; all others unchanged": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002163
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912495
+      }
+    ],
+    "13.3 Write `serializeLinks(links)` / `deserializeLinks(json)`: JSON stringify/parse with full field preservation; `deserializeLinks` must return `[]` on invalid input": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002212
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912548
+      }
+    ],
+    "14.1 Write the Quick Links HTML markup inside `#widget-links`:": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002258
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912634
+      }
+    ],
+    "14.2 Write `Links.render()`: clear `#links-container`; if `state.links` empty show placeholder `<p>` text; otherwise render each link as `<a target=\"_blank\" rel=\"noopener noreferrer\">` with `href` set via `setAttribute` and label via `textContent` (no `innerHTML`); add delete button per link": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002308
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912685
+      }
+    ],
+    "14.3 Write `Links.add(label, url)`: validate label with `isBlank` and url with `isValidUrl`; focus first invalid field and surface error in appropriate `aria-live` `<span>`; on success call `addLink()`, update `state.links`, persist via `Storage.save('tld_links', serializeLinks(...))`, clear both inputs, call `Links.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002359
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912744
+      }
+    ],
+    "14.4 Write `Links.delete(id)`: call `deleteLink()`, update `state.links`, persist, call `Links.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002409
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912797
+      }
+    ],
+    "14.5 Write `Links.init()`: load links via `Storage.load('tld_links', '[]')` → `deserializeLinks`; seed `state.links`; call `Links.render()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002459
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912850
+      }
+    ],
+    "15.1 Write the Bootstrap `DOMContentLoaded` handler: verify all required DOM element selectors are present; for any missing element emit `console.error` and return early for that module's `init()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002518
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912901
+      }
+    ],
+    "15.2 Call module init functions in dependency order: `Storage` (no init needed) → `Theme.init()` → `Greeting.init()` → `Timer.init()` → `Tasks.init()` → `Links.init()`": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002567
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760912955
+      }
+    ],
+    "16. Checkpoint — Full integration pass": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002618
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760913011
+      }
+    ],
+    "17.1 Add `aria-label` or `aria-labelledby` to each widget section element; add `role=\"list\"` / `role=\"listitem\"` where semantic HTML alone is insufficient": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002665
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760913066
+      }
+    ],
+    "17.2 Confirm all interactive controls (buttons, inputs, select) are keyboard-reachable and have visible focus styles; confirm `aria-live=\"polite\"` `<span>` elements are present for every validated input field": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002714
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760913121
+      }
+    ],
+    "17.3 Add `aria-disabled=\"true\"` to timer buttons when disabled (in addition to the HTML `disabled` attribute) so assistive technologies announce the correct state": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002761
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760913180
+      }
+    ],
+    "18. Final checkpoint — All requirements verified": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756002810
+      },
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786760913237
+      }
+    ],
+    "2. Implement CSS design tokens, grid layout, and base styles": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756774590
+      }
+    ],
+    "3. Implement the Storage module (`js/app.js` — Section 1)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756792504
+      }
+    ],
+    "4. Implement the Theme module (`js/app.js` — Section 2)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786756976776
+      }
+    ],
+    "5. Implement pure helper functions (used across modules)": [
+      {
+        "executionId": "ace06f99-249b-4289-a9cc-17087bc0789b",
+        "chatSessionId": "sess_34081a4f-c450-4284-b4c3-7049c082187e",
+        "timestamp": 1786757326868
+      }
+    ],
+    "7. Implement the Greeting module (`js/app.js` — Section 3)": [
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761420955
+      }
+    ],
+    "8. Implement the Timer module (`js/app.js` — Section 4)": [
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786761986396
+      }
+    ],
+    "10. Implement the Tasks module — pure functions (`js/app.js` — Section 5, part A)": [
+      {
+        "executionId": "7c4bca0f-972f-47fc-ba5b-3f78f01a1a38",
+        "chatSessionId": "sess_6b96172e-4d64-4b2e-9ddf-ff0059175f07",
+        "timestamp": 1786763743179
+      }
+    ]
+  }
+}

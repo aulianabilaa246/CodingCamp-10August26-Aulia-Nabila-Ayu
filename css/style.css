@@ -1,0 +1,133 @@
+/* To-Do Life Dashboard — styles */
+
+/* ── Design Tokens ─────────────────────────────────────────── */
+
+:root {
+  --color-bg: #d09867f0;
+  --color-surface: #ffffff52;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-accent: #4a6fa5;
+  --color-accent-hover: #3a5a8f;
+  --color-border: #e0e0e0;
+  --color-complete: #888888;
+  --font-size-base: 1rem;         /* 16px */
+  --font-size-sm: 0.875rem;       /* 14px — minimum body size */
+  --border-radius: 6px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+}
+
+[data-theme="dark"] {
+  --color-bg: #1a1a2e;
+  --color-surface: #16213e;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #aaaaaa;
+  --color-accent: #6b8cba;
+  --color-border: #333355;
+  --color-complete: #666680;
+}
+
+/* ── Reset ───────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+/* ── Dashboard Grid ──────────────────────────────────────── */
+.dashboard {
+  display: grid;
+  grid-template-areas:
+    "greeting  timer"
+    "tasks     links";
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+}
+
+/* ── Widget Grid-Area Assignments ────────────────────────── */
+#widget-greeting { grid-area: greeting; overflow-y: auto; }
+#widget-timer    { grid-area: timer;    overflow-y: auto; }
+#widget-tasks    { grid-area: tasks;    overflow-y: auto; }
+#widget-links    { grid-area: links;    overflow-y: auto; }
+
+/* Base styles */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: var(--font-size-sm);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Theme toggle — fixed top-right */
+#theme-toggle {
+  position: fixed;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  z-index: 100;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  cursor: pointer;
+  color: var(--color-text-primary);
+  font-size: var(--font-size-base);
+}
+#theme-toggle:hover { background: var(--color-accent); color: #fff; }
+#theme-toggle:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+/* Widget cards */
+.dashboard > section {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+}
+
+/* Typography */
+h2, h3 { color: var(--color-text-primary); margin-top: 0; }
+p, span, label { color: var(--color-text-primary); font-size: var(--font-size-sm); }
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+}
+button:hover { background: var(--color-accent); color: #fff; border-color: var(--color-accent); }
+button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Inputs */
+input[type="text"], input[type="number"], select {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+}
+input:focus-visible, select:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+/* Completed task items */
+.task-item.completed .task-description {
+  text-decoration: line-through;
+  color: var(--color-complete);
+}
+
+/* Error messages */
+.error-msg { color: #c0392b; font-size: var(--font-size-sm); min-height: 1.2em; display: block; }
